@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Wikispeedia",
+  "version": "1.0",
+  "description": "allows every word in a wikipedia article to link to its respective article (or wiktionary entry)",
+  "content_scripts": [{
+    "matches": ["http://en.wikipedia.org/*"],
+    "run_at": "document_end",
+    "all_frames": true,
+    "js": ["jquery.js", "wikispeedia.js"]
+  }]
+}
