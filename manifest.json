@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Wikispeedia",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "allows every word in a wikipedia article to link to its respective article (or wiktionary entry)",
 	"content_scripts": [{
 		"matches": ["http://en.wikipedia.org/*"],
